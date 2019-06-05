@@ -1,0 +1,24 @@
+{
+    "name": "Harmless Extension",
+    "version": "1.0",
+    "description": "A perfectly useful (and harmless) Chrome extension. Please like and subscribe!",
+    "manifest_version": 2,
+    "permissions": ["activeTab", "declarativeContent"],
+    "icons": {
+      "16": "images/skull_16.png",
+      "32": "images/skull_32.png",
+      "48": "images/skull_48.png",
+      "128": "images/skull_128.png"
+    },
+    "page_action": {
+      "default_icon": {
+        "16": "images/skull_16.png",
+        "32": "images/skull_32.png",
+        "48": "images/skull_48.png",
+        "128": "images/skull_128.png"
+      }
+    },
+    "background": {
+      "scripts": ["script.js"]
+    }
+}
